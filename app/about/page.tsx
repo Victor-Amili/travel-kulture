@@ -1,0 +1,4 @@
+export default function AboutPage() {
+  return <main><section className="page-head"><div className="container"><h1>About TravelKulture</h1><p>Travel experiences infused with culture, community and meaningful stories.</p></div></section>
+  <section className="section"><div className="container" style={{maxWidth:850}}><h2>More than a trip</h2><p className="muted">TravelKulture is designed around immersive experiences rather than simply moving from one attraction to another. This section can later be expanded with the company story, team, values and travel philosophy.</p></div></section></main>;
+}
