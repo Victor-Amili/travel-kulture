@@ -4,7 +4,7 @@ export function Navbar() {
   return (
     <header className="nav">
       <div className="container nav-inner">
-        <Link href="/"><img className="nav-logo" src="/logo.jpg" alt="TravelKulture" /></Link>
+        <Link href="/"><img className="nav-logo" src="/images/logo.png" alt="TravelKulture" /></Link>
         <nav className="nav-links">
           <Link href="/tours">Tours</Link>
           <Link href="/reviews">Reviews</Link>
