@@ -4,7 +4,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { createClient } from "@/lib/supabase/client";
+import { supabase } from "@/lib/supabase/client";
 import CloudinaryUploader, {
   UploadedImage,
 } from "@/components/admin/CloudinaryUploader";
@@ -35,7 +35,6 @@ type TourImage = {
 export default function AdminTourEditPage() {
   const params = useParams();
   const router = useRouter();
-  const supabase = createClient();
 
   const id = String(params.id);
 
